@@ -6,7 +6,7 @@
 ## 2024
 
 ### • HTML, CSS, JavaScript,
-### • Python (Flask)
+### • PHP
 !(/images/coderush.png?aspect=1.7777)
 Built a coding contest/hackathon event platform enabling participant registration and event showcase for a departmental coding event.
 
