@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chetan Saha – Personal Website</title>
+    <meta
+      name="description"
+      content="My name is Chetan Saha, a BCA student and full stack developer with experience in Java web development, Python data automation and applied machine learning."
+    />
+
+    <link rel="icon" type="image/png" href="/icon/32x32.png" />
+
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/180x180.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Chetan Saha – Personal Website"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="theme-color" content="#f6d4b1" />
+
+    <meta property="og:title" content="Chetan Saha – Personal Website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/chetan-title.png" />
+    <meta
+      name="og:description"
+      content="My name is Chetan Saha, a BCA student and full stack developer with experience in Java web development, Python data automation and applied machine learning."
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href="https://chetansaha.dev/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Chetan Saha",
+        "url": "https://chetansaha.dev/",
+        "jobTitle": "Full Stack Developer",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Future Institute of Engineering and Management, Kolkata"
+        },
+        "email": "mailto:bg581482@gmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/ChetanSaha",
+          "https://github.com/chetan47"
+        ]
+      }
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+
+  <body>
+    <div id="home"></div>
+
+    <canvas class="webgl"></canvas>
+
+    <div id="hero-backup">
+      <h3>Hi  I’m</h3>
+      <h1>Chetan</h1>
+      <ul>
+        <li>Full Stack Developer</li>
+        <li>BCA Student</li>
+      </ul>
+    </div>
+
+    <nav>
+      <div class="menu-btn">
+        <button class="btn" onclick="toggleMenu()">
+          <svg width="16" height="16">
+            <rect class="st0" width="16" height="3.2" />
+            <rect y="6.4" class="st0" width="16" height="3.2" />
+            <rect y="12.8" class="st0" width="16" height="3.2" />
+          </svg>
+        </button>
+        <div style="display: flex">
+          <a
+            class="btn"
+            href="https://www.linkedin.com/in/ChetanSaha"
+            target="_blank"
+          >
+            <svg width="16" height="16">
+              <path
+                d="M0.1,2c0-1,0.8-1.8,1.9-1.8c1,0,1.8,0.9,1.8,1.8c0,1-0.8,1.9-1.8,1.9C0.9,3.9,0.1,3.1,0.1,2z M0.1,5h3.7v9.8
+                H0.1V5z"
+              />
+              <path
+                d="M15.9,8.5v6.2h-3.5V9.4c0-0.9-0.6-1.6-1.5-1.6c-0.8,0-1.4,0.6-1.4,1.5v5.5H5.8V5h3.7v1
+                c0.6-0.7,1.6-1.2,2.8-1.2C14.4,4.7,15.9,6.3,15.9,8.5z"
+              />
+            </svg>
+          </a>
+          <a
+            class="btn"
+            href="https://github.com/chetan47"
+            target="_blank"
+          >
+            <svg width="16" height="16">
+              <path
+                d="M10.6,12.9c0-1-0.3-1.6-0.7-2c2.4-0.3,4.9-1.1,4.9-5.2c0-1.1-0.4-2.1-1.1-2.9c0.1-0.3,0.5-1.3-0.1-2.8
+                c0,0-0.9-0.3-3,1.1c-1.7-0.5-3.6-0.5-5.4,0c-2-1.4-3-1.1-3-1.1C1.6,1.4,2,2.5,2.1,2.8C1.4,3.5,1,4.6,1,5.6c0,4.1,2.5,5,4.9,5.3
+                c-0.4,0.4-0.6,0.9-0.7,1.4c-0.6,0.3-2.2,0.7-3.1-0.9c0,0-0.6-1-1.6-1.1c0,0-1.1,0-0.1,0.7c0,0,0.7,0.3,1.1,1.6c0,0,0.6,2.1,3.6,1.5
+                c0,0.9,0,1.8,0,1.8h5.3C10.6,15.9,10.6,14.4,10.6,12.9z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-body" onclick="closeMenu()">
+        <a href="#home" onclick="closeMenu()">Home</a>
+        <a href="#aboutMe" onclick="closeMenu()">About</a>
+        <a href="#projects" onclick="closeMenu()">Projects</a>
+        <a href="#contact" onclick="closeMenu()">Contact</a>
+      </div>
+
+      <div id="tip-scroll">Scroll &#8595;</div>
+    </nav>
+
+    <main>
+      <section>
+        <h1 id="aboutMe">Hi there</h1>
+        <p>
+          My name is Chetan Saha — a passionate Full Stack Developer, AI enthusiast, and Software
+           Engineer dedicated to building innovative digital solutions. I enjoy transforming ideas into scalable, user-centric
+            web applications using technologies like Python, Django, React.js, polars, and Node.js. My interests span software engineering, 
+            artificial intelligence, machine learning, UI/UX design, and modern web development, with a strong focus on creating impactful
+             and intuitive user experiences.
+        </p>
+        <p>
+          I enjoy building things end-to-end — from Java/Django/Flask web
+          apps to Python & Polars data pipelines that automate real business
+          workflows. I placed<b><u> 1st in Smart India Hackathon (SIH)</u></b>
+            in 2024.
+        </p>
+        <p>As a BCA student and hackathon winner, I constantly explore emerging technologies and challenge myself through real-world projects that solve meaningful problems. I believe in writing clean, efficient code, collaborating with teams, and continuously learning to stay ahead in the rapidly evolving tech landscape.</p>
+
+        <p>
+          Below are details of some of the projects I've developed so far —
+          this site is a work in progress and gets new projects added as I
+          build them.
+        </p>
+      </section>
+
+      <section>
+        <h1 id="projects">Projects</h1>
+        <hr />
+
+        <h2>Carbook</h2>
+        <h3>2025-26</h3>
+        <ul class="skills">
+          <li>Java</li>
+          <li>JSP</li>
+          <li>Servlets</li>
+          <li>MySQL</li>
+          <li>Security Engineering</li>
+        </ul>
+        <p>
+          Carbook is a car rental web platform built with JSP, Servlets and
+          MySQL, featuring a black/white/yellow editorial UI. It includes
+          comprehensive security work: PBKDF2 password hashing, CSRF
+          protection, XSS prevention and role-based access filters for
+          customers and admins. Currently being migrated from javax.servlet
+          to jakarta.servlet for deployment on Tomcat 10.1 — an ongoing
+          project.
+        </p>
+        <div class="image">
+          <video width="100%" controls loop muted playsinline poster="/images/carbook.png">
+            <source src="/images/carbook-demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <hr />
+
+        <h2>MAA-KI-RASOII</h2>
+        <h3>2024 &middot; Winner, SIH Internal Hackathon</h3>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Tailwind CSS</li>
+          <li>Node.js</li>
+          <li>React.js</li>
+        </ul>
+        <p>
+          Engineered a comprehensive web platform delivering an integrated
+          solution to streamline online food ordering, management and
+          delivery operations. Created dynamic visualizations using Mongoose
+          and JavaScript to showcase delivery timelines.
+        </p>
+        <p>
+          <a href="https://github.com/Chetansaha47/MAA-KI--RASOII.git" target="_blank">GitHub</a>
+        </p>
+        <div class="image">
+          <video width="100%" controls loop muted playsinline poster="/images/maa-ki-rasoii.png">
+            <source src="/images/maa-ki-rasoii-demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <hr />
+
+        <h2>CA-DEPT-HUB (Department Portal)</h2>
+        <h3>2024</h3>
+        <ul class="skills">
+          <li>Python</li>
+          <li>Django</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>MySQL</li>
+        </ul>
+        <p>
+          Built and deployed a full-fledged departmental web portal for the
+          Dept. of Computer Application, FIEM, featuring student
+          login/registration, event listings, news & notices, and a photo
+          gallery. Implemented an admin-managed content system to publish
+          department events, newsletters and achievements in real time.
+        </p>
+        <p>
+          <a href="https://github.com/Chetansaha47/Department_Portal.git" target="_blank">GitHub</a>
+          &middot;
+          <a href="https://cadept.pythonanywhere.com/" target="_blank">Live Demo</a>
+        </p>
+        <div class="image">
+          <video width="100%" controls loop muted playsinline poster="/images/ca-dept-hub.png">
+            <source src="/images/ca-dept-hub-demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <h1>
+          
+        </h1>
+        <div class="image">
+          <img
+            src="/images/admin_ca.png"
+            width="100%"
+            alt="CODERUSH placeholder screenshot"
+            loading="lazy"
+            style="aspect-ratio: 840 / 320"
+          />
+        </div>
+        <hr />
+
+        <h2>Sales Order & Stock Allocation Automation</h2>
+        <h3>2024-25</h3>
+        <ul class="skills">
+          <li>Python</li>
+          <li>Polars</li>
+          <li>FastAPI</li>
+          <li>React</li>
+          <li>Data Engineering</li>
+        </ul>
+        <p>
+          Built a multi-stage Python/Polars data processing pipeline for an
+          Excel-based sales order management system — covering
+          dealer/distributor segmentation, credit limit lookups, billing
+          loops, CF flagging, and stock allocation with depot pool splits.
+        </p>
+        <p>
+          A related Stock Allocation Engine reverse-engineered business logic
+          purely from sample input/output files and was delivered as a
+          strict, dependency-light Polars pipeline. Also built a
+          prompt-driven Excel automation platform (FastAPI + React +
+          Anthropic API) that works like a lightweight ETL tool for
+          non-technical users.
+        </p>
+        <div class="image">
+          <img
+            src="/images/excel-automation.png"
+            width="100%"
+            alt="Excel automation placeholder screenshot"
+            loading="lazy"
+            style="aspect-ratio: 1920 / 1080"
+          />
+        </div>
+        <div>
+          <h1>  </h1>
+        </div>
+        <div class="image">
+          <img
+            src="/images/excel-automation-ai.png"
+            width="50%"
+            alt="Excel automation placeholder screenshot"
+            loading="lazy"
+            style="aspect-ratio: 960 / 340"
+          />
+        </div>
+        <hr />
+
+        <h2>Handcraft Selling Platform</h2>
+        <h3>Dec 2024 - Jul 2025 &middot; Euphoria GenX Internship</h3>
+        <ul class="skills">
+          <li>Python</li>
+          <li>Flask</li>
+          <li>Pandas</li>
+          <li>NumPy</li>
+          <li>Scikit-learn</li>
+        </ul>
+        <p>
+          Built during an Industrial Training & Internship at Euphoria GenX,
+          Kolkata. Developed a handcraft selling platform using HTML, CSS
+          and Flask on the backend, with Pandas, NumPy, Scikit-learn,
+          Matplotlib and Seaborn used for data processing, analysis and
+          visualization. This internship gave me hands-on experience with
+          Python and Machine Learning fundamentals.
+        </p>
+        <div class="image">
+          <video width="100%" controls loop muted playsinline poster="/images/handcraft-platform.png">
+            <source src="/src/img/handcraft-demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <hr />
+
+        <h2>CODERUSH</h2>
+        <h3>2024</h3>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python (Flask)</li>
+        </ul>
+        <p>
+          Built a coding contest/hackathon event platform enabling
+          participant registration and event showcase for a departmental
+          coding event.
+        </p>
+        <p>
+          <a href="https://github.com/Chetansaha47/CODERUSH.git" target="_blank">GitHub</a>
+        </p>
+        <div class="image">
+          <img
+            src="/images/coderush.png"
+            width="100%"
+            alt="CODERUSH placeholder screenshot"
+            loading="lazy"
+            style="aspect-ratio: 1920 / 1080"
+          />
+        </div>
+        <hr />
+
+        
+        <hr />
+
+        <p>
+          This represents a selection of the projects I've worked on so far.
+          More coming soon as I keep building.
+        </p>
+      </section>
+
+      <section>
+        <h1 id="contact">Contact</h1>
+        <p style="text-align: center">
+          Email
+          <a href="mailto:bg581482@gmail.com"><u><b>bg581482@gmail.com</b></u></a>
+          &middot; Reach out on
+          <a href="https://www.linkedin.com/in/ChetanSaha" target="_blank"
+            ><u><b>LinkedIn</b></u></a
+          >
+          &middot;
+          <a href="https://github.com/chetan47" target="_blank"
+            ><u><b>GitHub</b></u></a
+          >
+        </p>
+      </section>
+    </main>
+
+    <input type="text" id="textarea" readonly />
+    <div id="loading">
+      <h2>Booting...</h2>
+      <div id="loading-bar">
+        <div id="loading-bar-progress"></div>
+      </div>
+      <div id="loading-items">Starting...</div>
+    </div>
+    <footer>
+      <div>Developed + Designed by Chetan Saha.</div>
+      <div>
+        Built on the original "Retro Computer Personal Website" template by
+        Edward Hinrichsen (MIT licensed), customized with my own content.
+      </div>
+      <div>Computer design based on the Commodore PET 8296.</div>
+      <div>COPYRIGHT © 2026 Chetan Saha.</div>
+    </footer>
+    <script>
+      function closeMenu() {
+        document.getElementsByTagName("nav")[0].classList.remove(["active"]);
+      }
+
+      function toggleMenu() {
+        const nav = document.getElementsByTagName("nav")[0];
+        if (nav.classList.contains("active")) {
+          nav.classList.remove(["active"]);
+        } else {
+          nav.classList.add(["active"]);
+        }
+      }
+    </script>
+    <script
+      fetchpriority="high"
+      src="https://cdn-ts.netlify.app/webgl-helper@3.0.11/webgl-helper.min.js"
+    ></script>
+  </body>
+</html>
