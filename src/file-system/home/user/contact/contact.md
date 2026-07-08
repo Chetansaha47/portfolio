@@ -6,10 +6,10 @@
 bg581482@gmail.com
 
 ## LinkedIn
-https://www.linkedin.com/in/ChetanSaha
+https://www.linkedin.com/in/chetansaha47/
 
 ## GitHub
-https://github.com/chetan47
+https://github.com/Chetansaha47
 
 ## Location
 Kolkata, West Bengal, India
