@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chetansaha.dev/sitemap.xml
+Sitemap: https://chetansaha47.vercel.app/sitemap.xml
