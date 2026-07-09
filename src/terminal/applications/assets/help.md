@@ -3,7 +3,7 @@
 
 
 # Help
-### EDSH is just like BASH except much more limited.
+### CS-bash~ is just like BASH except much more limited.
 
 ## • Type*ls* to list directory contents
 
@@ -17,5 +17,4 @@
 
 
 ## All commands
-### EDSH, version 0.2.1 
-
+### Chetan, version 13.10.47
