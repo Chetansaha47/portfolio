@@ -2,7 +2,7 @@
 
 !(/images/chetan-avatar.png?aspect=1&width=0.6)
 
-# Hi there
+# Hello~World!!
 
 My name is Chetan Saha, I'm a BCA (Bachelor of Computer Application) student at Future Institute of Engineering and Management, Kolkata, and a full stack developer with hands-on experience across web development, data processing and automation, and applied machine learning.
 
